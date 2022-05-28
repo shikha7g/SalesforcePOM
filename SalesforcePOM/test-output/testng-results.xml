@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-28T13:16:54 PDT" name="Suite" finished-at="2022-05-28T13:17:23 PDT" duration-ms="29817">
+    <groups>
+    </groups>
+    <test started-at="2022-05-28T13:16:54 PDT" name="Test" finished-at="2022-05-28T13:17:23 PDT" duration-ms="29817">
+      <class name="login.firebase.tests.AutomationScript">
+        <test-method is-config="true" signature="initialTestSetup()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:16:54 PDT" name="initialTestSetup" finished-at="2022-05-28T13:16:54 PDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTestSetup -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String)[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:16:54 PDT" name="setUp" finished-at="2022-05-28T13:16:56 PDT" duration-ms="2001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void login.firebase.tests.AutomationScript.testCase1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase1()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:16:56 PDT" name="testCase1" finished-at="2022-05-28T13:16:57 PDT" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="closeAllDriver()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:16:57 PDT" name="closeAllDriver" finished-at="2022-05-28T13:16:58 PDT" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllDriver -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String)[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:16:58 PDT" name="setUp" finished-at="2022-05-28T13:16:59 PDT" duration-ms="1246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void login.firebase.tests.AutomationScript.testCase2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase2()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:16:59 PDT" name="testCase2" finished-at="2022-05-28T13:17:06 PDT" duration-ms="6911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="closeAllDriver()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:06 PDT" name="closeAllDriver" finished-at="2022-05-28T13:17:06 PDT" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllDriver -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String)[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:06 PDT" name="setUp" finished-at="2022-05-28T13:17:08 PDT" duration-ms="1298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void login.firebase.tests.AutomationScript.testCase3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase3()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:08 PDT" name="testCase3" finished-at="2022-05-28T13:17:17 PDT" duration-ms="8775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="closeAllDriver()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:17 PDT" name="closeAllDriver" finished-at="2022-05-28T13:17:17 PDT" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllDriver -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String)[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:17 PDT" name="setUp" finished-at="2022-05-28T13:17:18 PDT" duration-ms="1315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void login.firebase.tests.AutomationScript.testCase4a()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase4a()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:18 PDT" name="testCase4a" finished-at="2022-05-28T13:17:20 PDT" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4a -->
+        <test-method is-config="true" signature="closeAllDriver()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:20 PDT" name="closeAllDriver" finished-at="2022-05-28T13:17:20 PDT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllDriver -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String)[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:20 PDT" name="setUp" finished-at="2022-05-28T13:17:22 PDT" duration-ms="1282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void login.firebase.tests.AutomationScript.testCase4b()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase4b()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:22 PDT" name="testCase4b" finished-at="2022-05-28T13:17:23 PDT" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4b -->
+        <test-method is-config="true" signature="closeAllDriver()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:23 PDT" name="closeAllDriver" finished-at="2022-05-28T13:17:23 PDT" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllDriver -->
+        <test-method is-config="true" signature="finalTestTearDown()[pri:0, instance:login.firebase.tests.AutomationScript@44ebcd03]" started-at="2022-05-28T13:17:23 PDT" name="finalTestTearDown" finished-at="2022-05-28T13:17:23 PDT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalTestTearDown -->
+      </class> <!-- login.firebase.tests.AutomationScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
