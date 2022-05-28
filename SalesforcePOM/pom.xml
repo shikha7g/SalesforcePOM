@@ -65,7 +65,7 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<includes>
-						<include>**/Runner.java</include>
+						<include>**/testng.xml</include>
 					</includes>
 				</configuration>
 			</plugin>
