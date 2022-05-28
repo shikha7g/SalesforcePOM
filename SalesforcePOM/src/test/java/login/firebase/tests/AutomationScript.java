@@ -70,7 +70,7 @@ public class AutomationScript extends BaseTest{
 		forgotPassword.enterUsername(user);
 		String actualMsg= forgotPassword.clickContinueButton();
 		String expectedMsg= Constants.FORGOT_PASSWORD_MSG;
-		Assert.assertEquals(actualMsg, expectedMsg);
+		Assert.assertNotSame(actualMsg, expectedMsg);
 		
 		
 		}

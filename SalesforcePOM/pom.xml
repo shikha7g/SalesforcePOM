@@ -26,7 +26,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.5</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
 
@@ -63,10 +63,11 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19</version>
 				<configuration>
-					<testFailureIgnore>true</testFailureIgnore>
-					<includes>
-						<include>**/testng.xml</include>
-					</includes>
+					<!-- Suite testng xml file to consider for test execution -->
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+						
+					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 

@@ -11,7 +11,7 @@ public class ForgotPassword extends BasePage {
 	
 	@FindBy(id="un")WebElement userName;
 	@FindBy(id="continue")WebElement continueButton;
-	@FindBy(xpath="//p[contains(text(),'We’ve sent you an email with a link to')]")WebElement infoMsg;
+	@FindBy(xpath="//div[@class='message']//p[contains(text(),'you an email')]") WebElement infoMsg;
 	
 	public ForgotPassword(WebDriver driver) {
 		super(driver);
